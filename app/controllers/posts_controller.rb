@@ -36,3 +36,5 @@ private
   def post_params
     params.require(:post).permit(:title, :desription, :post_status, :author_id)
   end
+end 
+end 
